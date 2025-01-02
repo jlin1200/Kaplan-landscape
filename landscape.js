@@ -1,4 +1,3 @@
-<script>
   const track = document.querySelector('.carousel-track');
   const slides = Array.from(track.children);
   const prevButton = document.querySelector('.carousel-button.prev');
@@ -23,4 +22,3 @@
 
   // Ensure slides are updated on window resize
   window.addEventListener('resize', updateSlidePosition);
-</script>
